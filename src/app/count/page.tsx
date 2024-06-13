@@ -7,7 +7,7 @@ export default function DisplayCount() {
     const [getCount,setCount] = useState<string>();
 
   function socketClient() {
-    const socket = io(`http://172.16.120.62:3001`, {
+    const socket = io('', {
       transports: ["websocket"],
     });
 
